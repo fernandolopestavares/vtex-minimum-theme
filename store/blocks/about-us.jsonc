@@ -1,0 +1,39 @@
+{
+    "store.custom#about-us": {
+      "blocks": ["flex-layout.row#about-us"]
+    },
+    "flex-layout.row#about-us": {
+        "children": [
+          "image#about-us",
+          "flex-layout.col#text-about-us"
+        ]
+      },
+      "flex-layout.col#text-about-us": {
+        "children": [
+          "rich-text#about-title",
+          "rich-text#about-content"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#about-title": {
+        "props": {
+            "text": "# About Minimum Theme"
+        }
+      },
+      "rich-text#about-content": {
+        "props": {
+          "text": "**Optimized store framework** \n\n [help](https://help.vtex.com/en/faq/what-is-vtex-io) Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+          "textPosition": "LEFT",
+          "textAlignment": "LEFT",
+          "blockClass": "about"
+        }
+      },
+      "image#about-us": {
+        "props": {
+          "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+          "maxHeight": "600px"
+        }
+      }
+  }

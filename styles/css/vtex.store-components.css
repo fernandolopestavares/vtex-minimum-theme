@@ -49,3 +49,6 @@
     margin: 0 auto;
     padding: 0;
   }
+  .container--about {
+    max-width: 85%;
+  }
