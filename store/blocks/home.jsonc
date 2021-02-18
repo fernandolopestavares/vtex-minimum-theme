@@ -23,7 +23,8 @@
       "headline": "Nespresso Aveludado",
       "callToActionText": "SAIBA MAIS",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "left"
+      "textAlignment": "left",
+      "blockClass": "nespresso"
     }
   },
   "info-card#vintage": {
