@@ -1,0 +1,42 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "info-card#clearance",
+      "info-card#vintage"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "info-card#clearance": {
+    "props": {
+      "id": "info-card-clearance",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://www.embalagemmarca.com.br/wp-content/uploads/2020/09/nespresso-1024x576.jpg",
+      "headline": "Nespresso Aveludado",
+      "callToActionText": "SAIBA MAIS",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#vintage": {
+    "props": {
+      "id": "info-card-vintage",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "right",
+      "blockClass": "vintage"
+    }
+  }
+}
